@@ -2,12 +2,12 @@
   "name": "react-portfolio",
   "version": "2.0",
   "private": true,
+  "homepage": "https://pradhyum999-cyber.github.io/MyPortfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "framer-motion": "^7.6.19",
-    "homepage": "https://github.com/pradhyum999-cyber/MyPortfolio",
     "locomotive-scroll": "^4.1.4",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
