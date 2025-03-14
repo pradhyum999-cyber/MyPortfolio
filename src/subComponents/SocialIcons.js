@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
 // Replace Twitter with XLogo in the import:
-import { Github, XLogo, Facebook, LinkedIn, Instagram, PowerBtn } from "../components/AllSvgs";
+import { XLogo, Facebook, LinkedIn, Instagram } from "../components/AllSvgs";
 import { DarkTheme } from "../components/Themes";
 
 const Icons = styled.div`
