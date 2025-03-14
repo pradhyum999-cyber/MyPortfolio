@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { keyframes, ThemeProvider } from 'styled-components'
-import {DarkTheme} from './Themes';
+import { DarkTheme } from './Themes';
 
 
 import LogoComponent from '../subComponents/LogoComponent';
@@ -34,7 +34,7 @@ img{
     height: auto;
 }
 `
-const Main =  styled.div`
+const Main = styled.div`
   border: 2px solid ${(props) => props.theme.text};
   color: ${(props) => props.theme.text};
   padding: 2rem;
@@ -61,31 +61,32 @@ const Main =  styled.div`
 const AboutPage = () => {
     return (
         <ThemeProvider theme={DarkTheme}>
-<Box>
+            <Box>
 
-<LogoComponent theme='dark'/>
-<SocialIcons theme='dark'/>
-<PowerButton />
-<ParticleComponent theme='dark' />
+                <LogoComponent theme='dark' />
+                <SocialIcons theme='dark' />
+                <PowerButton />
+                <ParticleComponent theme='dark' />
 
-        <Spaceman>
-            <img src={astronaut} alt="spaceman" />
-        </Spaceman>    
-        <Main>
-        I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
-<br /> <br/>
-I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
-<br/> <br/>
-I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
-        </Main>
+                <Spaceman>
+                    <img src={astronaut} alt="spaceman" />
+                </Spaceman>
+                <Main>
+                    I'm passionate about empowering businesses to thrive through innovative CRM solutions.
+                    With over 4 years of hands-on experience as a Microsoft Dynamics 365 and Power Platform Specialist, I excel in delivering tailored solutions that streamline workflows, boost productivity, and address complex business challenges.
+                    <br /> <br />
+                    My expertise spans Dynamics 365 CRM, Power Automate, PowerApps, and Azure technologies. By focusing on building custom JavaScript plugins, I extend the capabilities of CRM systems to meet unique business requirements.
+                    <br /> <br />
+                    I'm committed to continuous learning and staying ahead of industry trends to ensure I bring real, measurable value to your team or business. Let’s connect and explore how I can help you achieve sustainable growth.
+                </Main>
 
-        <BigTitle text="ABOUT" top="10%" left="5%" />
+                <BigTitle text="ABOUT" top="10%" left="5%" />
 
 
-        </Box>
+            </Box>
 
         </ThemeProvider>
-        
+
     )
 }
 

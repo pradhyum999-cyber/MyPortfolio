@@ -32,11 +32,11 @@ VScode, Github, Codepen etc.
 About Text
 
 ----------------------------------------------
-I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
+I'm passionate about empowering businesses to thrive through innovative CRM solutions. With over 4 years of hands-on experience as a Microsoft Dynamics 365 and Power Platform Specialist, I excel in delivering tailored solutions that streamline workflows, boost productivity, and address complex business challenges.
 
-I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
+My expertise spans Dynamics 365 CRM, Power Automate, PowerApps, and Azure technologies. By focusing on building custom JavaScript plugins, I extend the capabilities of CRM systems to meet unique business requirements.
 
-I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
+I'm committed to continuous learning and staying ahead of industry trends to ensure I bring real, measurable value to your team or business. Let’s connect and explore how I can help you achieve sustainable growth.
 ----------------------------------------------
 
 
